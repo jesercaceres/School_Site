@@ -3146,6 +3146,7 @@ table.alt tbody tr td {
 #header {
   padding: 5em 5em 1em 5em;
   text-align: center;
+  margin-bottom: -3rem;
 }
 
 #header h1 {
@@ -3409,7 +3410,7 @@ body.is-preload #header.alt .logo {
 #main {
   background-color: #ffffff;
   color: #636363;
-  border-radius: 0.25em;
+  border-radius: 2rem;
 }
 
 #main input,
@@ -3828,6 +3829,7 @@ body.is-preload #header.alt .logo {
   width: 64em;
   max-width: calc(100% - 4em);
   margin: 0 auto;
+  
 }
 
 @media screen and (max-width: 480px) {
@@ -3842,9 +3844,6 @@ body.is-preload #header.alt .logo {
   }
 }
 
-#content{
-  display: flex;
-  flex-wrap: nowrap;  
-}
+
 
 
